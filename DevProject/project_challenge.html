@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link href=".\Resources\CSS\project_challenge.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>Build your own cheatsheet</h1>
+        <img src=".\Resources\Images\cheatsheet.JPG" id="heading_image" />
+        <h2>CSS Selectors and Specificity</h2>
+        <p>This is a cheatsheet to basic CSS selectors that can be referenced to style HTML sheets.</p>
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr class="tabletop">
+                    <th scope="col">Property</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Specificity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="one">
+                    <td><a href="#identification">#id</a></td>
+                    <td class="descriptor">The id property is used to reference items in the HTML code that have been assigned an ID. To reference ID's, it needs to be preceded with a hashtag in the CSS file.</td>
+                    <td>High</td>
+                </tr>
+                <tr class="two">
+                    <td><a href="#classification">.class</a></td>
+                    <td class="descriptor">The class property is used to reference classes set in the HTML code. To reference classes, the class name needs to be preceded with a . in CSS</td>
+                    <td>Medium</td>
+                </tr>
+                <tr class="three">
+                    <td><a href="#types">Types</a></td>
+                    <td class="descriptor">You can reference elements such as p or div directly.</td>
+                    <td>Low</td>
+                </tr>
+                <tr class="four">
+                    <td><a href="#combinator">Descendant combinators</a></td>
+                    <td class="descriptor">This refers to selecting elements nested within other elements, known as descendants. This has a higher degree of specificity than singular elements on their own.</td>
+                    <td>High</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="sections">
+        <div id="identification">
+            <h2>ID's</h2>
+            <p>This is the ID section</p>
+            <img src=".\Resources\Images\id.png" alt="Example of ID in CSS" />
+            <figcaption>Referencing an ID in CSS</figcaption>
+        </div>
+        <div id="classification">
+            <h2>Classes</h2>
+            <p>This is the class section</p>
+            <img src=".\Resources\Images\class.png" alt="Example of class in HTML and CSS" />
+            <figcaption>Example of class in HTML and CSS</figcaption>
+        </div>
+        <div id="types">
+            <h2>Types</h2>
+            <p>This is the types section</p>
+            <p>The declaration is important for specifying a style to apply, but in order to specify which text type (e.g. paragraphs, headings) to apply that style to, you need a selector. Types describe anything created by a tag. For example, p, div, body are all examples of types.</p>
+            <img src=".\Resources\Images\ruleset_inline.png" alt="CSS ruleset vs Inline" />
+            <figcaption>Anatomy of CSS, showcasing how the paragraph tag is applied within HTML (inline) vs CSS (ruleset)</figcaption>
+        </div>
+        <div id="combinator">
+            <h2>Descendant Combinators</h2>
+            <p>This is the section detailing descendant combinators</p>
+            <p>CSS also supports selecting elements that are nested within other HTML elements, known as descendants. Note that with descendant combinators, specificity increases.</p>
+            <img src=".\Resources\Images\descendant.png" alt="Descendant combinator example" />
+            <figcaption>Example of a descendant combinator, referencing list items in a class 'main-list'</figcaption>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

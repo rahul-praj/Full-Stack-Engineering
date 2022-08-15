@@ -1,0 +1,40 @@
+.heading {
+    background-image: url("C:/Users/rahulpraj/Documents/Full Stack Engineering/DevProject/Resources/Images/pattern.jpeg");
+    font-family: Helvetica;
+    font-size: 100px;
+    color: khaki;
+}
+
+span {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#one {
+    background-color: mediumspringgreen;
+    width: 100%;
+}
+
+#two {
+    background-color: lightcoral;
+    width: 100%;
+}
+
+#three {
+    background-color: skyblue;
+    width: 100%;
+}
+
+p {
+    color: black;
+    text-align: left;
+}

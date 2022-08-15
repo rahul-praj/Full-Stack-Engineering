@@ -1,0 +1,48 @@
+html {
+    background-color:peachpuff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+    display: inline-block;
+    width: 100%;
+}
+
+#heading_image {
+    float: right;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 50px;
+}
+
+.table {
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid black;
+}
+
+th {
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.descriptor {
+    line-height: 20px;
+}
+
+.one, .three {
+    background-color: lightblue;
+}
+
+.two, .four {
+    background-color: lightcyan;
+}
+
+img {
+    width: 50%;
+}
+
+figcaption {
+    font-size: 10px;
+}
