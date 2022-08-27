@@ -1,0 +1,156 @@
+html {
+    background-color: slateblue;
+    color: snow;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../Fonts/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url("../Fonts/static/OpenSans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url("../Fonts/static/OpenSans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url("../../../../Fonts/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Space Mono Italic';
+    src: url("../../../../Fonts/SpaceMono-Italic.ttf");
+}
+
+@font-face {
+    font-family: 'Space Mono Bold';
+    src: url("../../../../Fonts/SpaceMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Dynapuff';
+    src: url("../../../../Fonts/static/DynaPuff/DynaPuff-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Dynapuff Medium';
+    src: url("../../../../Fonts/static/DynaPuff/DynaPuff-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Dynapuff Bold';
+    src: url("../../../../Fonts/static/DynaPuff/DynaPuff-Bold.ttf");
+}
+
+.box_title {
+    float: left;
+    width: 14%;
+    clear: right;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    padding: 50px;
+    margin-bottom: 75px;
+}
+
+.colsec .box#reds {
+    background-color: red;
+    margin-left: 80px;
+}
+
+.colsec .box#oranges {
+    background-color: orange;
+    margin-left: 170px;
+}
+
+.colsec .box#yellows {
+    background-color: yellow;
+    margin-left: 170px;
+}
+
+.colsec .box#greens {
+    background-color: green;
+    margin-left: 170px;
+}
+
+.colsec .box#blues {
+    background-color: blue;
+    margin-left: 165px;
+}
+
+.colsec .box#indigos {
+    background-color: indigo;
+    margin-left: 170px;
+}
+
+.colsec .box#violets {
+    background-color: violet;
+    margin-left: 170px;
+}
+
+.styles {
+    clear: left;
+}
+
+.main h1 {
+    font-size: 26px;
+}
+
+.boxmod {
+    margin-bottom: 75px;
+}
+
+.fonts {
+    display: inline-block;
+}
+
+.spacemono {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.opensans#normal {
+    font-family: "Open Sans";
+}
+
+.opensans#italic {
+    font-family: "Open Sans Italic";
+}
+
+.opensans#bold {
+    font-family: "Open Sans Bold";
+}
+
+.spacemono#normal {
+    font-family: "Space Mono";
+}
+
+.spacemono#italic {
+    font-family: "Space Mono Italic";
+}
+
+.spacemono#bold {
+    font-family: "Space Mono Bold";
+}
+
+.dynapuff#normal {
+    font-family: "Dynapuff";
+}
+
+.dynapuff#medium {
+    font-family: "Dynapuff Medium";
+}
+
+.dynapuff#bold {
+    font-family: "Dynapuff Bold";
+}
+
